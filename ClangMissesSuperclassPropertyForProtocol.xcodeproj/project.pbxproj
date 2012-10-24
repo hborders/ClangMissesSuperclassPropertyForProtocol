@@ -16,6 +16,9 @@
 		5A9617A11638980B00052818 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9617A01638980B00052818 /* Default.png */; };
 		5A9617A31638980B00052818 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9617A21638980B00052818 /* Default@2x.png */; };
 		5A9617A51638980B00052818 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9617A41638980B00052818 /* Default-568h@2x.png */; };
+		5A9617AE1638982400052818 /* HBSuperclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9617AD1638982400052818 /* HBSuperclass.m */; };
+		5A9617B11638982E00052818 /* HBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9617B01638982E00052818 /* HBClass.m */; };
+		5A96183B163898FD00052818 /* HBClass+HBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A96183A163898FD00052818 /* HBClass+HBCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,13 @@
 		5A9617A01638980B00052818 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5A9617A21638980B00052818 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A9617A41638980B00052818 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5A9617AB1638981900052818 /* HBProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBProtocol.h; sourceTree = "<group>"; };
+		5A9617AC1638982400052818 /* HBSuperclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSuperclass.h; sourceTree = "<group>"; };
+		5A9617AD1638982400052818 /* HBSuperclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSuperclass.m; sourceTree = "<group>"; };
+		5A9617AF1638982E00052818 /* HBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBClass.h; sourceTree = "<group>"; };
+		5A9617B01638982E00052818 /* HBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBClass.m; sourceTree = "<group>"; };
+		5A961839163898FD00052818 /* HBClass+HBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBClass+HBCategory.h"; sourceTree = "<group>"; };
+		5A96183A163898FD00052818 /* HBClass+HBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HBClass+HBCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,13 @@
 				5A96179D1638980B00052818 /* HBAppDelegate.h */,
 				5A96179E1638980B00052818 /* HBAppDelegate.m */,
 				5A9617951638980B00052818 /* Supporting Files */,
+				5A9617AB1638981900052818 /* HBProtocol.h */,
+				5A9617AC1638982400052818 /* HBSuperclass.h */,
+				5A9617AD1638982400052818 /* HBSuperclass.m */,
+				5A9617AF1638982E00052818 /* HBClass.h */,
+				5A9617B01638982E00052818 /* HBClass.m */,
+				5A961839163898FD00052818 /* HBClass+HBCategory.h */,
+				5A96183A163898FD00052818 /* HBClass+HBCategory.m */,
 			);
 			path = ClangMissesSuperclassPropertyForProtocol;
 			sourceTree = "<group>";
@@ -167,6 +184,9 @@
 			files = (
 				5A96179B1638980B00052818 /* main.m in Sources */,
 				5A96179F1638980B00052818 /* HBAppDelegate.m in Sources */,
+				5A9617AE1638982400052818 /* HBSuperclass.m in Sources */,
+				5A9617B11638982E00052818 /* HBClass.m in Sources */,
+				5A96183B163898FD00052818 /* HBClass+HBCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
